@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "penpen.quitfromgamemenu.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"GameMenuScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "quit-from-game-menu",
+	"version": "${version}",
+	"name": "Quit from Game Menu",
+	"description": "Adds a button to the pause menu to quit the game directly",
+	"authors": [
+		"Penpen"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/quit-from-game-menu/icon.png",
+	"environment": "*",
+	"mixins": [
+		{
+			"config": "quit-from-game-menu.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"fabric-api": "*"
+	}
+}
