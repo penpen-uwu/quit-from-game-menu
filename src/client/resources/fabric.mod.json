@@ -8,7 +8,8 @@
 		"Penpen"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"issues": "https://github.com/penpen-uwu/quit-from-game-menu/issues",
+		"sources": "https://github.com/penpen-uwu/quit-from-game-menu"
 	},
 	"license": "MIT",
 	"icon": "assets/quit-from-game-menu/icon.png",
