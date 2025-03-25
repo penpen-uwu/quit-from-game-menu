@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"issues": "https://github.com/penpen-uwu/quit-from-game-menu/issues",
-		"sources": "https://github.com/penpen-uwu/quit-from-game-menu"
+		"sources": "https://github.com/penpen-uwu/quit-from-game-menu",
+		"homepage": "https://modrinth.com/mod/quit-from-game-menu"
 	},
 	"license": "MIT",
 	"icon": "assets/quit-from-game-menu/icon.png",
@@ -22,6 +23,6 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.4"
+		"minecraft": "~1.21.5"
 	}
 }
