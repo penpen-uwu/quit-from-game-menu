@@ -20,7 +20,7 @@ public abstract class GameMenuScreenMixin extends Screen {
     }
 
     @Inject(method = "createPauseMenu", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/layouts/GridLayout;arrangeElements()V"))
-    private void addQuitGameButton(CallbackInfo ci, @Local GridLayout.RowHelper adder) {
+    private void addQuitGameButton(CallbackInfo ci, @Local(name = "helper") GridLayout.RowHelper adder) {
         adder.addChild(Button.builder(Component.translatable("menu.quit"), (button) -> {
             button.active = false;
             Minecraft.getInstance().stop();
